@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*왼쪽메뉴*/
+.title {height: 272px;text-align: center;}
+.title .max_wid{min-width: 1250px;margin: 0 auto;}
+.menu_logo{width: 282px;height: 181px;display: inline-block;margin-top: 90px;}
+.menu_left, .contents{display: inline-block;}
+.menu_left_wrap {background:url('../img/bg_menu_left_wrap.jpg') repeat-y 50% 0;}
+.contents{width: 923px;padding:0 20px 50px;}
+.title h1 {display: inline-block;width: 968px;color:#FFF;font-size:36px;vertical-align: top;margin-top:160px;font-weight: bold;text-shadow: #000 1px 1px 1px;}
+.menu_left{vertical-align: top;width: 281px;padding-left:1px;margin-right: 5px;}
+.menu_left ul li{line-height: 66px;background: #f8f8f8; border-bottom:1px solid #e5e5e5;border-left:0;border-right:0;text-align: left;}
+.menu_left ul li a{display:block;padding-left:50px;color: #555555;font-weight: bold;font-size: 17px;}
+.menu_left ul li:hover{background-image: url('../intro/img/on_hover.png');}
+.menu_left ul .on{background: url('../intro/img/on_hover.png');}
+.menu_left ul .dep2 {border:0;border-top:1px solid #e5e5e5;padding:25px 0 15px;background-color:#fcfcfc;}
+.menu_left ul .dep2 li {height:40px;line-height:30px;border:0;background:none #fcfcfc;}
+.menu_left ul .dep2 li a {padding-left:58px;font-size:14px;color:#000;background:url('../img/bul_leftmenu_off.gif') no-repeat 52px 15px;}
+.menu_left ul .dep2 li a:hover,
+.menu_left ul .dep2 li a.on {color:#0f65d4;background:url('../img/bul_leftmenu_on.gif') no-repeat 52px 15px;}
+.contents h2 {text-align:left;padding:40px 0 30px;}
+
+/*intro-----------------------------------------------------------------------------------------------------------------*/
