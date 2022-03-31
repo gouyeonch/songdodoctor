@@ -4,6 +4,8 @@
 @import url(../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 	#wrap{width:100%;margin:0 auto;text-align:center; min-width:1250px; overflow-x:hidden; overflow-y:hidden;}
+		/*gouyeonch cust*/
+		#menulogoImg{width:292px; height:66px; margin:-3px;}
 
 		/*nav------------------------------------------------------------------------------------------------------------------*/
 		header{width:100%;background: rgb(251 252 255 / 80%);height:90px;z-index:5;box-shadow: black;display:block;position:absolute;}
