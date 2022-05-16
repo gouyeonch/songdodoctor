@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+	#wrap{width:100%;margin:0 auto;text-align:center; min-width:1250px; overflow-x:hidden; overflow-y:hidden;}
+		/*gouyeonch cust*/
+		#menulogoImg{width:292px; height:66px; margin:-3px;}
+
+		/*nav------------------------------------------------------------------------------------------------------------------*/
+		header{width:100%;background: rgb(251 252 255 / 80%);height:90px;z-index:5;box-shadow: black;display:block;position:absolute;}
+		nav{width:1280px; height:90px; margin:0 auto; text-align:left;}
+		nav h1{width:234px; display:inline-block; vertical-align:top; margin:16px 160px 0 0;}
+		nav ul{ overflow:hidden;display:inline-block;margin-left:40px;width:800px;}
+		nav ul li{text-align:center !important;float:left; color:#0c4da1;padding: 0 35px;font:600 20px "나눔고딕","nanum gothic",sans-serif; line-height:90px;  }
+		nav ul li a{font: 20px "나눔고딕","nanum gothic",sans-serif; line-height:90px;}
+		nav ul li a:hover{font: 20px "나눔고딕","nanum gothic",sans-serif; line-height:90px;}
+		nav span{padding-left:10px;}
+
+		/*main------------------------------------------------------------------------------------------------------------------*/
+		#main{width:100%;height:1038px;display:block; position:relative;}
+		.main{width:1921px; margin:-90px auto; text-align:left;}
+
+		.total{ background:url(../img/totalbg.png) no-repeat 100% 0%; position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1;}
+		/*bg1------------------------------------------------------------------------------------------------------------------*/
+		.bg1{width:861px;height:1015px;display:inline-block;background:url(../img/bg1.png) no-repeat;vertical-align:top;}
+		.map{width:220px;height:204px; margin:550px 0 0 638px; text-align:left;border:#9d9d9d 1px solid;box-sizing:border-box;}
+		.map1{width:220px;height:204px; background:url(../img/mapbg.png) center no-repeat; }
+		.map1 h2{color:#000;font:600 24px "나눔고딕","nanum gothic",sans-serif;padding:35px 0 0 25px;}
+		.map1 span{ border-top:#000 2px solid; padding-top:13px;}
+		.map1 p{color:#000;font: 16px "나눔고딕","nanum gothic",sans-serif;margin:10px 0 0 25px;}
+		.time{width:859px; height:60px; background:rgba(30,30,30,0.6);border-top:#000 1px solid;border-bottom:#000 1px solid; box-sizing:border-box;}
+		.time p{margin-left:300px;color:#fff; font: 16px "나눔고딕","nanum gothic",sans-serif; line-height:60px;}
+		.time span{margin-left:30px;font: 18px "나눔고딕","nanum gothic",sans-serif; line-height:60px;}
+
+		/*bg2------------------------------------------------------------------------------------------------------------------*/
+		.bg2{width:1040px;height:1015px;display:inline-block;/*background:url(../img/bg2.png) no-repeat;*/ vertical-align:top; margin-left:-6px;}
+		.doctors{width:271px; height:269px;margin:550px 0 0 -3px; box-sizing:border-box;}
+		.intro{width:271px; height:269px; background:url(../img/docbg.png) center no-repeat;}
+		.intro h2{color:#fff;font:600 24px "나눔고딕","nanum gothic",sans-serif;padding:35px 0 0 25px;}
+		.intro span{ border-top:#fff 2px solid; padding-top:13px;}
+		.intro p{color:#fff;font: 16px "나눔고딕","nanum gothic",sans-serif;margin:20px 0 0 25px;}
+		.bg2 ul{ overflow:hidden;margin:-5px 0 0 -3px;}
+		.bg2 ul li{ float:left;}
+
+		/*bg3------------------------------------------------------------------------------------------------------------------*/
+		.bg3{width:208px;height:920px; text-align:center;position:fixed; top:90px;right:0px;z-index:30;transition:right 1s;}
+
+		.bg3 .smb{width:69px;height:69px;cursor:pointer;position:absolute;top:30px;left:-68px;opacity:1 !important;}
+		.bg3 .smb img{margin-left:20px;}
+		.reservation h3{width:208px; height:47px;background:#383838;color:#fff;font: 16px "나눔고딕","nanum gothic",sans-serif; line-height:47px;}
+		.info{background:#fff;width:208px; height:375px; margin:0 auto; border-bottom:#0c4da1 15px solid;}
+		.info h4{ width:185px; margin:0 auto; padding:27px 0; border-bottom:#9c9c9c 1px solid;font:bold 28px "나눔고딕","nanum gothic",sans-serif; color:#0c4da1;}
+		#popup{display:none !important;}
+		.date{padding:18px 0;font:600 16px "나눔고딕","nanum gothic",sans-serif !important; color:#000; line-height:22px !important;}
+		.exp{text-align:left;margin-left:15px;font: 13px "나눔고딕","nanum gothic",sans-serif; color:#000; line-height:17px;}
+		.look{background:#0c4da1;width:208px; height:288px;}
+		.look1{width:185px; height:38px; margin:0 auto; text-align:left; border-bottom:#3d71b4 1px solid;}
+		.look1 h5{width:19px; display:inline-block; padding:10px 0 0 20px;}
+		.look1 p{width:100px; padding:10px 0 0 20px;font:16px "나눔고딕","nanum gothic",sans-serif; color:#fff;vertical-align:top;display:inline-block;}
+		.look2{width:185px; height:38px; margin:0 auto; text-align:left; border-bottom:#3d71b4 1px solid;}
+		.look2 h5{width:19px; display:inline-block;padding:10px 0 0 15px;}
+		.look2 p{width:100px; padding:10px 0 0 23px;font:16px "나눔고딕","nanum gothic",sans-serif; color:#fff;vertical-align:top;display:inline-block;}
+		.look3{width:185px; height:38px; margin:0 auto; text-align:left;}
+		.look3 h5{width:19px; display:inline-block;padding:10px 0 0 23px;}
+		.look3 p{width:100px; padding:10px 0 0 17px;font:16px "나눔고딕","nanum gothic",sans-serif; color:#fff; vertical-align:top;display:inline-block;}
+		.naver{ background:#00c73d; width:204px; height:38px;}
+		.naver h4{width:23px; display:inline-block; margin-top:7px;}
+		.naver p{width:100px;font:600 16px "나눔고딕","nanum gothic",sans-serif; color:#fff; line-height:38px; vertical-align:top;display:inline-block;}
+
+		/*footer------------------------------------------------------------------------------------------------------------------*/
+		footer{width:100%; height:65px; background:#fff; display:block; position:relative;}
+		.bottom{width:1280px; height:65px; margin:0 auto; text-align:left;}
+		.bottom h2{width:222px;display:inline-block; vertical-align:top; margin:10px 0 0 0;}
+		.bottom ul { overflow:hidden;display:inline-block; }
+		.bottom ul li{float:left;padding-left:10px; font: 14px "나눔고딕","nanum gothic",sans-serif;line-height:65px;}
+		.bottom span{padding-left:8px;color:#7f7f7f;}
+		.bottom p{ font: 14px "나눔고딕","nanum gothic",sans-serif;padding:24px 0 0 10px;display:inline-block;vertical-align:top;}
+
+
